@@ -1,0 +1,117 @@
+/* CSS per Footer Axia */
+
+.footer-axia {
+  background-color: #222; /* colore scuro di sfondo (da adattare) */
+  color: #f5f5f5; /* testo chiaro */
+  background-image: url('images/footer-bg.jpg'); /* sfondo decorativo, se presente */
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 60px 20px 30px;
+  font-family: sans-serif;
+}
+
+.footer-axia a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+.footer-axia a:hover {
+  text-decoration: underline;
+}
+
+/* Sezione Top */
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.footer-logo {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 180px; /* o la larghezza effettiva del logo*/
+  height: auto;
+}
+
+/* Contatti + Link utili */
+.footer-contacts-and-links {
+  display: flex;
+  flex: 2 1 400px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-contacts {
+  flex: 1 1 250px;
+  margin-bottom: 20px;
+}
+
+.footer-contacts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-contacts li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.footer-icon {
+  width: 24px;
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Link utili lato */
+.footer-links {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 12px;
+}
+
+.footer-links ul li a {
+  font-size: 0.95em;
+}
+
+/* Sezione Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 25px;
+  text-align: center;
+  font-size: 0.85em;
+}
+
+.footer-admin-data {
+  margin-bottom: 8px;
+}
+
+.footer-admin-data span {
+  display: inline-block;
+  margin: 0 6px;
+}
+
+.footer-copyright {
+  margin-top: 6px;
+}
+
+.footer-copyright a {
+  color: #ffffff;
+  font-weight: bold;
+}
