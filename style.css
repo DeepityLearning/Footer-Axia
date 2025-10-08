@@ -3,7 +3,7 @@
 .footer-axia {
   background-color: #222; /* colore scuro di sfondo (da adattare) */
   color: #f5f5f5; /* testo chiaro */
-  background-image: url('images/footer-bg.jpg'); /* sfondo decorativo, se presente */
+  background-image: url(https://www.axiaformazione.it/images/footer-con-immagine.jpg); /* sfondo decorativo, se presente */
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
